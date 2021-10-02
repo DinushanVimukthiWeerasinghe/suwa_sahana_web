@@ -1,0 +1,134 @@
+.popover{
+    max-width: 80%; /* Max Width of the popover (depending on the container!) */
+}
+body {
+    font-family: 'Lato', sans-serif;
+
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  background-size: contain;
+  background-repeat:space;
+  height: auto;
+  min-height: 100vh;
+
+
+}
+.bg-could{
+  background-color: #8BC6EC;
+  background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%) !important;
+}
+.bg-opacity{
+  background-color: rgba(0,0,0,.5);
+}
+
+.mycss{
+  font-size: 48px;
+  background: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+}
+mycss-1{
+  font-size: 30px;
+  background: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+}
+.mycss:hover {
+  font-size: 48px;
+  background: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+  cursor: progress;
+}
+
+.table-bg{
+  background-color: rgba(0,0,0,.5);
+  color: white;
+  font-weight: bold;
+}
+
+
+
+.bg-del{
+  background-color: #3eece5;
+  background-image: linear-gradient(19deg, #3eece5 0%, #EE74E1 100%) !important;
+}
+.right {
+  position: absolute;
+  right: 0;
+}
+.bg-some{
+
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%)!important;
+  font-weight: bolder!important;
+  font-size: larger;
+}
+
+/*.accordionExample{*/
+/*  color: black ;*/
+/*  font-weight: bolder;*/
+/*}*/
+/*.accordion-header{*/
+/*  align-self: center !important;*/
+/*}*/
+
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #dbb6b6;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+
+
+ #msg{
+     color: #f1f1f1;
+ }
+ #ico{
+   width: 50%;
+   height: 50%;
+}
+.dtHorizontalExampleWrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+#dtHorizontalExample th, td {
+  white-space: nowrap;
+}
+
+
+
+  /*@media screen and (max-width: 346px) {*/
+  /*  .btnlgn{*/
+  /*    width: available;*/
+  /*  }*/
+  /*}*/
